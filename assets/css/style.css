@@ -2,6 +2,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    resize:both;
+    overflow:auto;
 }
 
 body {
@@ -20,9 +22,9 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* .header h1 .seo {
     color: #d9dcd6;
-}
+} */ 
 
 .header div {
     padding-top: 15px;
@@ -30,11 +32,14 @@ body {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
+/* .header div ul {
+    list-style-type: none; [UNNECESSARY CODE LINE 40-42]
+} */ 
 
 .header div ul li {
     display: inline-block;
@@ -69,7 +74,8 @@ p {
     margin-left: 25px;
 }
 
-.content {
+.main {
+    /* renamed title in line 77 */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -77,6 +83,8 @@ p {
 
 .benefits {
     margin-right: 20px;
+    margin-bottom: 32px;
+    color: #ffffff;
     padding: 20px;
     clear: both;
     float: right;
@@ -86,7 +94,7 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-aside {
     margin-bottom: 32px;
     color: #ffffff;
     /* added border & padding below */
@@ -94,7 +102,7 @@ p {
     border: 2px solid whitesmoke;
 }
 
-.benefit-brand {
+/* .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
    /* added border & padding below */
@@ -108,7 +116,7 @@ p {
     /* added border & padding below */
     padding: 10px;
     border: 2px solid whitesmoke;
-}
+} */
 
 .benefit-lead h3 {
     margin-bottom: 10px;
