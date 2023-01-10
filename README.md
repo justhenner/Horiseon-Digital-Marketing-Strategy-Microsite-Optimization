@@ -14,7 +14,7 @@
 
 I reduced redundancy in stylesheet and optimized semantic html layout.
 
-## Deployed Site
+## Deployed Link
 
 [Visit the deployed site](https://justhenner.github.io/Horiseon-Digital-Marketing-Strategy-Microsite-Optimization/)
 
